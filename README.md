@@ -6,7 +6,7 @@ Export a [Poetry](https://python-poetry.org) project's `poetry.lock` to a pip-co
 To your [.pre-commit-config.yaml](https://pre-commit.com/#2-add-a-pre-commit-configuration) add:
 
 ```yaml
-- repo: https://github.com/seandstewart/pre-commit-poetry-export
+- repo: https://github.com/boulevardcg/pre-commit-poetry-export
   rev: master
   hooks:
     - id: export-requirements
