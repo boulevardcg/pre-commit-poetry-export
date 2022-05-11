@@ -7,7 +7,7 @@ To your [.pre-commit-config.yaml](https://pre-commit.com/#2-add-a-pre-commit-con
 
 ```yaml
 - repo: https://github.com/boulevardcg/pre-commit-poetry-export
-  rev: master
+  rev: v0.1
   hooks:
     - id: export-requirements
     - id: export-requirements-dev
